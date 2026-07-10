@@ -4,8 +4,9 @@
 
 import SwiftUI
 
-struct ContentView: View {
-    var body: some View {
+public struct ShinyUIView: View {
+    public init() { }
+    public var body: some View {
         VStack {
             Text("This is shinny UI")
         }
@@ -14,5 +15,5 @@ struct ContentView: View {
 }
 
 #Preview {
-    ContentView()
+    ShinyUIView()
 }
