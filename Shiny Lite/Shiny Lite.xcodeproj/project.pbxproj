@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		CED806C43001619400713A4D /* ShinyUI in Frameworks */ = {isa = PBXBuildFile; productRef = CED806C33001619400713A4D /* ShinyUI */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		CED806A630015F6900713A4D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -52,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CED806C43001619400713A4D /* ShinyUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,6 +117,7 @@
 			);
 			name = "Shiny Lite";
 			packageProductDependencies = (
+				CED806C33001619400713A4D /* ShinyUI */,
 			);
 			productName = "Shiny Lite";
 			productReference = CED8069830015F6800713A4D /* Shiny Lite.app */;
@@ -195,6 +201,9 @@
 			);
 			mainGroup = CED8068F30015F6800713A4D;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				CED806C23001619400713A4D /* XCLocalSwiftPackageReference "../package/ShinyUI" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = CED8069930015F6800713A4D /* Products */;
 			projectDirPath = "";
@@ -572,6 +581,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		CED806C23001619400713A4D /* XCLocalSwiftPackageReference "../package/ShinyUI" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../package/ShinyUI;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CED806C33001619400713A4D /* ShinyUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ShinyUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = CED8069030015F6800713A4D /* Project object */;
 }
