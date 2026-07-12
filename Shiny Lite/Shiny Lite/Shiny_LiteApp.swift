@@ -11,7 +11,7 @@ import SwiftUI
 struct Shiny_LiteApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            RootView()
         }
     }
 }
